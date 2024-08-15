@@ -14,10 +14,10 @@ with open('notes.csv', mode='r') as file:
 
 # Créer un graphique en barres
 plt.figure(figsize=(10, 8))
-plt.bar(range(21), nombre_etudiant_par_note, color='#800080', edgecolor='black')
+plt.bar(range(21), nombre_etudiant_par_note, color='#4682B4', edgecolor='black')
 
 # Ajouter un titre et des étiquettes pour les axes
-plt.title("Nombre d'étudiants en fonction de leur note")
+plt.title("Distribution des notes des étudiants")
 plt.xlabel('Note')
 plt.ylabel("Nombre d'étudiants")
 
